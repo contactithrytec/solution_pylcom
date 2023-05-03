@@ -4,6 +4,8 @@ Vous avez reçu un e-mail de : {{ $name }} <br><br>
 
 Coordonnées d'utilisateur: <br><br>
 
+
+<span>● </span> Email: {{ $email }} .<br>
 <span>● </span> Nom complet: {{ $name }} .<br>
 <span>● </span> Message: {{ $user_query }} .<br><br>
 

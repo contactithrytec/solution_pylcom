@@ -4,6 +4,7 @@ Vous avez reçu un e-mail de : {{ $first_name }}  {{ $last_name }}<br><br>
 
 Coordonnées d'utilisateur: <br><br>
 
+<span>● </span> Email: {{ $email }} .<br>
 <span>● </span> Nom complet: {{ $first_name }}  {{ $last_name }} .<br>
 <span>● </span> Nom de l'entreprise: {{ $business }}   .<br>
 <span>● </span> Numéro de téléphone: {{ $phone }} .<br>

@@ -50,11 +50,11 @@
                     <!--support end-->
 
                     <!--button start-->
-                    {{--<li class="nav-item header-nav-last-item d-flex align-items-center">
-                        <a class="btn primary-solid-btn animated-btn" href="#" target="_blank">
-                            Get Started
+                    <li class="nav-item header-nav-last-item d-flex align-items-center">
+                        <a class="btn primary-solid-btn animated-btn" href="{{route('pricing')}}" >
+                            Tarifs
                         </a>
-                    </li>--}}
+                    </li>
                     <!--button end-->
                 </ul>
             </div>

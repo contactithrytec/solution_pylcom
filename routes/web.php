@@ -35,9 +35,9 @@ Route::get('/contact', function () {
     return view('devis',compact('countries'));
 })->name('estimate');
 
-/*Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');*/
+Route::get('/pricing', function () {
+    return view('pricing');
+})->name('pricing');
 
 Route::post('/contact/' ,[ContactController::class, 'store_contact'])->name('contact.store');
 Route::post('/estimate/' ,[ContactController::class, 'store_estimate'])->name('estimate.store');
