@@ -104,8 +104,13 @@
             else{
                 if(lastSegment=="contact")
                     document.getElementById("contact_nav").classList.add("active");
-                else
-                    document.getElementById("home_nav").classList.add("active");
+                else{
+                    if (lastSegment=="pricing")
+                         document.getElementById("procing_nav").classList.add("active");
+                    else
+                        document.getElementById("home_nav").classList.add("active");
+                }
+
             }
 
          }

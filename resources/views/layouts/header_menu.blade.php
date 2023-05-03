@@ -50,7 +50,7 @@
                     <!--support end-->
 
                     <!--button start-->
-                    <li class="nav-item header-nav-last-item d-flex align-items-center">
+                    <li class="nav-item header-nav-last-item d-flex align-items-center" id="procing_nav">
                         <a class="btn primary-solid-btn animated-btn" href="{{route('pricing')}}" >
                             Tarifs
                         </a>
