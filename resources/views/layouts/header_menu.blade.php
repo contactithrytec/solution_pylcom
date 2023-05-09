@@ -19,7 +19,7 @@
                 <ul class="navbar-nav ml-auto main-navbar-nav" id="active_nav">
                     <!--home start-->
                     <li class="nav-item submenu-item is_active_nav_link" data-position="left" id="home_nav">
-                        <a class="nav-link custom-nav-link" href="{{route('home')}}" aria-haspopup="true" aria-expanded="false">Home</a>
+                        <a class="nav-link custom-nav-link" href="{{route('home')}}" aria-haspopup="true" aria-expanded="false">Accueil</a>
                     </li>
                     <!--home end-->
 
@@ -51,9 +51,7 @@
 
                     <!--button start-->
                     <li class="nav-item header-nav-last-item d-flex align-items-center" id="procing_nav">
-                        <a class="btn primary-solid-btn animated-btn" href="{{route('pricing')}}" >
-                            Tarifs
-                        </a>
+                        <a class="btn primary-solid-btn animated-btn" href="{{route('pricing')}}" >Tarifs</a>
                     </li>
                     <!--button end-->
                 </ul>

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- SEO Meta description -->
-    <meta name="description" content="Hostlar hosting template designed for all web hosting, business, multi purpose, domain sale websites, online business, personal hosting company and similar sites and many more.">
+    <meta name="description" content="Pylcom est une solution de gestion commerciale basée sur le cloud complète, sécurisée, facile à utiliser et abordable pour tous les types d’entreprises (Unité de production et de fabrication, Distributeur, Restaurants, Magasin, Multi-Magasin, Multipoint de vente, Vente en Gros et au Détail ...).">
     <meta name="author" content="ThemeTags">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -96,16 +96,16 @@
         var currentLocation = window.location.href.split('/');
         var lastSegment = currentLocation.pop() || currentLocation.pop();
         console.log(lastSegment);
-         if(lastSegment=="fonctionnalit%C3%A9s")
+         if(lastSegment=="fonctionnalites")
              document.getElementById("main_nav").classList.add("active");
         else{
-            if(lastSegment=="about")
+            if(lastSegment=="Qui_sommes_nous")
                 document.getElementById("about_nav").classList.add("active");
             else{
                 if(lastSegment=="contact")
                     document.getElementById("contact_nav").classList.add("active");
                 else{
-                    if (lastSegment=="pricing")
+                    if (lastSegment=="tarifs")
                          document.getElementById("procing_nav").classList.add("active");
                     else
                         document.getElementById("home_nav").classList.add("active");

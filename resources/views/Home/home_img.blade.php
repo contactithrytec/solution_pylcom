@@ -35,8 +35,8 @@
                         </li>
                     </ul>--}}
                     <div class="action-btns mt-4">
-                        <a href="https://demo.pylcom.app/login" class="btn solid-white-btn animated-btn mr-3" target="_blank">Montrer la Démo</a>
-                        <a href="{{route('estimate')}}" class="btn outline-white-btn animated-btn">Demander un Devis</a>
+                        <a href="https://app.pylcom.app/business/register?package=1" class="btn solid-white-btn animated-btn mr-3" target="_blank"> Démarrez, c'est gratuit</a>
+                        <a href="{{route('pricing')}}" class="btn outline-white-btn animated-btn">Achetez maintenant</a>
                     </div>
                 </div>
             </div>

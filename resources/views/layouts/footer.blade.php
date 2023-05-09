@@ -78,6 +78,15 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="https://ithrytec.com/" target="_blank">ithrytec.com</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://app.pylcom.app/" target="_blank">app.pylcom.app</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('about')}}" >À propos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('pricing')}}" >Tarifs</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -95,7 +104,7 @@
                 <div class="col-md-5 col-lg-5">
                     <p class="copyright-text pb-0 mb-0">Copyrights © 2023. All
                         rights reserved by
-                        <a href="https://demo.pylcom.app/" target="_blank">PylCom</a>
+                        <a href="https://app.pylcom.app/" target="_blank">PylCom</a>
                     </p>
                 </div>
                 {{--<div class="col-md-7 col-lg-6">

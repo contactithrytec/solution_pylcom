@@ -7,7 +7,7 @@
                 <div class="section-heading text-center mb-5">
                     <h2>Notre Clients</h2>
                     <p class="lead">
-                        Un site au service de votre expertise qui évolue avec votre entreprise ? Avec  <font color="#302e69">Pyl</font><font color="#5669de">Com</font> , c'est un besoin qui devient réalité .
+                        Un site au service de votre expertise qui évolue avec votre entreprise ? Avec  <font color="#302e69">Pyl</font><font color="#5669de">Com</font> , c'est un besoin qui devient réale .
                     </p>
                 </div>
             </div>

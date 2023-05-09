@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/fonctionnalités', function () {
+Route::get('/fonctionnalites', function () {
     return view('main_features');
 })->name('main');
 
@@ -26,7 +26,7 @@ Route::get('/additional', function () {
     return view('additional_features');
 })->name('additional');
 
-Route::get('/about', function () {
+Route::get('/Qui_sommes_nous', function () {
     return view('about');
 })->name('about');
 
@@ -35,7 +35,7 @@ Route::get('/contact', function () {
     return view('devis',compact('countries'));
 })->name('estimate');
 
-Route::get('/pricing', function () {
+Route::get('/tarifs', function () {
     return view('pricing');
 })->name('pricing');
 
